@@ -31,7 +31,7 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #fff; 
-    background-color: #f2f1f6;
+    background-color: #082600;
 }
 
 body a {
@@ -230,7 +230,7 @@ h6 {
 
 .menu-wrapper {        
     z-index: 9999 !important;
-    background-color: #D0CCDA;
+    background-color: #2d4128;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -264,7 +264,7 @@ img.menu-logo {
     font-weight: 700;
     font-size: 13px;
     line-height: 40px;
-    color: #615D6E;        
+    color: #9f9f9f;        
     text-transform: uppercase;
     letter-spacing: 0.03cm;
 }
@@ -304,7 +304,7 @@ img.menu-logo {
 ====================================== */
 
 #home {
-    background-color: #dad9e1;
+    background-color: #082600;
     padding-top: 1%;
     padding-bottom: 300px;
     margin-bottom: -300px;
@@ -320,11 +320,11 @@ img.menu-logo {
 ====================================== */
 
 .menu-wrapper.section-services {
-    background-color: #524e5e;
+    background-color: #2d4128;
 }
 
 .menu-wrapper.section-services .main-menu.sm-clean a {
-    color: #d0a8b1;
+    color: #9f9f9f;
 }
 
 h2.big-title {    
@@ -334,10 +334,11 @@ h2.big-title {
 }
 
 #services .box-wrapper {
-    background-color: #5f5a6d;    
+    background-color: #082600;    
     background-image: url(images/section_square.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: left center;
+    color: #fff;
 }
 
 .service-img {
@@ -350,6 +351,7 @@ h2.big-title {
     margin-left: 33px;
     vertical-align: middle;
     text-align: left;
+    color: #fff;
 }
 
 .service-txt h4 {
@@ -365,6 +367,7 @@ h2.big-title {
 .service-img img {
     width: 75px;
     height: 75px;
+    
 }
 
 
