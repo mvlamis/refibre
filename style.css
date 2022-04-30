@@ -31,7 +31,7 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #fff; 
-    background-color: #082600;
+    background-color: #DEE8D8;
 }
 
 body a {
@@ -320,7 +320,7 @@ img.menu-logo {
 ====================================== */
 
 .menu-wrapper.section-services {
-    background-color: #2d4128;
+    background-color: #E8CF50;
 }
 
 .menu-wrapper.section-services .main-menu.sm-clean a {
@@ -334,11 +334,11 @@ h2.big-title {
 }
 
 #services .box-wrapper {
-    background-color: #082600;    
+    background-color: #DEE8D8;    
     background-image: url(images/section_square.png);
     background-repeat: repeat;
     background-position: left center;
-    color: #fff;
+    color: #000;
 }
 
 .service-img {
@@ -351,7 +351,7 @@ h2.big-title {
     margin-left: 33px;
     vertical-align: middle;
     text-align: left;
-    color: #fff;
+    color: #000;
 }
 
 .service-txt h4 {
@@ -376,7 +376,7 @@ h2.big-title {
 ====================================== */
 
 .menu-wrapper.section-portfolio {
-    background-color: #dcc1c7;
+    background-color: #DEE8D8;
 }
 
 .grid {
@@ -474,7 +474,7 @@ h2.big-title {
 .process {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #d0a8b1;
+    color: #9BB047;
     font-size: 82px;
     display: inline-block;
     width: 230px;
@@ -613,7 +613,7 @@ div.pp_default .pp_close {
 ====================================== */
 
 .menu-wrapper.section-support {
-    background-color: #dcc1c7;
+    background-color: #E8CF50;
 }
 
 #support .box-wrapper {
@@ -630,7 +630,7 @@ div.pp_default .pp_close {
 .quote h2 {
     font-size: 48px;
     line-height: 60px;
-    color: #c28c99;
+    color: #9BB047;
     margin: 0;
 }
 
