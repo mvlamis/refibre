@@ -19,7 +19,7 @@
 14. Responsive Part
 -------------------------------------------------------------------*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 /* ===================================
     1. Global CSS
@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Mono', monospace;
     letter-spacing: -2px;
     font-weight: 700;
     margin: 0;
