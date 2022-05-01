@@ -325,9 +325,9 @@ img.logotext {
     4. Service Section
 ====================================== */
 
-.menu-wrapper.section-services {
+/* .menu-wrapper.section-services {
     background-color: #E8CF50;
-}
+} */
 
 .menu-wrapper.section-services .main-menu.sm-clean a {
     color: #9f9f9f;
@@ -550,10 +550,10 @@ div.pp_default .pp_close {
 /* ===================================
     6. News Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-news {
     background-color: #595367;
-}
+} */
 
 .menu-wrapper.section-news .main-menu.sm-clean a {
     color: #e3ccd1;
@@ -617,10 +617,10 @@ div.pp_default .pp_close {
 /* ===================================
     7. Support Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-support {
     background-color: #E8CF50;
-}
+} */
 
 #support .box-wrapper {
     background-image: url("images/bg_img_01.jpg");
@@ -641,8 +641,8 @@ div.pp_default .pp_close {
 }
 
 .support-service {
-    color: #e3ccd1;
-    background-color: #615c6f;
+    color: #fff;
+    background-color: #082600;
     padding: 80px 70px !important;
     margin-bottom: 180px !important;
 }
@@ -659,10 +659,10 @@ img.support-img {
 /* ===================================
     8. Focus Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-focus {
     background-color: #c596a1;
-}
+} */
 
 .focus-holder {
     padding: 100px;
@@ -837,10 +837,10 @@ img.support-img {
 /* ===================================
     10. Team Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-team {
     background-color: #c1b0bc;
-}
+} */
 
 #team .box-wrapper {
     background-color: #9BB047;
@@ -958,7 +958,7 @@ img.support-img {
 }
 
 ul.counter-widget {
-    background-color: #5A5667;
+    background-color: #082600;
     text-align: center;
     margin: 0;
     padding: 50px 0;
@@ -1227,7 +1227,7 @@ footer a {
 }
 
 .footer {
-    background: #5a5667;
+    background: #082600;
     color: #fff;
     padding: 60px 0;
     margin-bottom: 50px;    
