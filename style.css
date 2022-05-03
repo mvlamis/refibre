@@ -31,7 +31,13 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #fff; 
-    background-color: #082600;
+    /* background-color: #082600; */
+    background-image: 'url(images/grid.png)';
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 body a {
