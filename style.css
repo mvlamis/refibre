@@ -19,7 +19,7 @@
 14. Responsive Part
 -------------------------------------------------------------------*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Mono&display=swap');
 
 /* ===================================
     1. Global CSS
@@ -31,13 +31,7 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #fff; 
-    /* background-color: #082600; */
-    background-image: 'url(images/grid.png)';
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    
+    background-color: #DEE8D8;
 }
 
 body a {
@@ -58,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Mono', monospace;
     letter-spacing: -2px;
     font-weight: 700;
     margin: 0;
@@ -222,7 +216,7 @@ h6 {
 
 .slick-next:hover, 
 .slick-prev:hover {
-    color: #d0a8b1;
+    color: #9BB047;
 }
 
 .slick-prev {
@@ -252,11 +246,18 @@ h6 {
 }
 
 img.menu-logo {    
-    width: 100px;
-    height: 130px;
+    width: 70px;
     position: absolute;
-    left: 0;
-    top: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+img.logotext {
+    width: 170px;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+
 }
 
 .main-menu.sm-clean {
@@ -310,14 +311,14 @@ img.menu-logo {
 ====================================== */
 
 #home {
-    background-color: #082600;
+    background-color: #DEE8D8;
     padding-top: 1%;
     padding-bottom: 300px;
     margin-bottom: -300px;
 }
 
 #home .box-wrapper {
-    background-color: #dad9e1;
+    background-color: #DEE8D8;
 }
 
 
@@ -325,26 +326,26 @@ img.menu-logo {
     4. Service Section
 ====================================== */
 
-.menu-wrapper.section-services {
-    background-color: #2d4128;
-}
+/* .menu-wrapper.section-services {
+    background-color: #E8CF50;
+} */
 
 .menu-wrapper.section-services .main-menu.sm-clean a {
     color: #9f9f9f;
 }
 
 h2.big-title {    
-    font-size: 48px;    
-    line-height: 60px;          
+    font-size: 40px;    
+    line-height: 40px;          
     padding-bottom: 30px;
 }
 
 #services .box-wrapper {
-    background-color: #082600;    
+    background-color: #DEE8D8;    
     background-image: url(images/section_square.png);
     background-repeat: repeat;
     background-position: left center;
-    color: #fff;
+    color: #000;
 }
 
 .service-img {
@@ -357,7 +358,7 @@ h2.big-title {
     margin-left: 33px;
     vertical-align: middle;
     text-align: left;
-    color: #fff;
+    color: #000;
 }
 
 .service-txt h4 {
@@ -382,7 +383,7 @@ h2.big-title {
 ====================================== */
 
 .menu-wrapper.section-portfolio {
-    background-color: #dcc1c7;
+    background-color: #DEE8D8;
 }
 
 .grid {
@@ -480,7 +481,7 @@ h2.big-title {
 .process {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #d0a8b1;
+    color: #9BB047;
     font-size: 82px;
     display: inline-block;
     width: 230px;
@@ -550,10 +551,10 @@ div.pp_default .pp_close {
 /* ===================================
     6. News Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-news {
     background-color: #595367;
-}
+} */
 
 .menu-wrapper.section-news .main-menu.sm-clean a {
     color: #e3ccd1;
@@ -617,10 +618,10 @@ div.pp_default .pp_close {
 /* ===================================
     7. Support Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-support {
-    background-color: #dcc1c7;
-}
+    background-color: #E8CF50;
+} */
 
 #support .box-wrapper {
     background-image: url("images/bg_img_01.jpg");
@@ -636,13 +637,13 @@ div.pp_default .pp_close {
 .quote h2 {
     font-size: 48px;
     line-height: 60px;
-    color: #c28c99;
+    color: #9BB047;
     margin: 0;
 }
 
 .support-service {
-    color: #e3ccd1;
-    background-color: #615c6f;
+    color: #fff;
+    background-color: #082600;
     padding: 80px 70px !important;
     margin-bottom: 180px !important;
 }
@@ -659,10 +660,10 @@ img.support-img {
 /* ===================================
     8. Focus Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-focus {
     background-color: #c596a1;
-}
+} */
 
 .focus-holder {
     padding: 100px;
@@ -837,13 +838,13 @@ img.support-img {
 /* ===================================
     10. Team Section
 ====================================== */
-
+/* 
 .menu-wrapper.section-team {
     background-color: #c1b0bc;
-}
+} */
 
 #team .box-wrapper {
-    background-color: #6a6579;
+    background-color: #9BB047;
 }
 
 .team-member img {
@@ -874,9 +875,8 @@ img.support-img {
 
 .team-member .member-position {
     font-size: 12px;
-    color: #ba9099;
+    color: #fff;
     font-weight: 600;
-    letter-spacing: 3px;
     padding-bottom: 20px;
 }
 
@@ -885,7 +885,7 @@ img.support-img {
 }
 
 .team-member.member-3 {
-    background-color: #615c6f;
+    background-color: #082600;
 }
 
 .progress_bar {
@@ -958,7 +958,7 @@ img.support-img {
 }
 
 ul.counter-widget {
-    background-color: #5A5667;
+    background-color: #082600;
     text-align: center;
     margin: 0;
     padding: 50px 0;
@@ -991,7 +991,7 @@ ul.counter-widget {
 
 .contact-form-holder {    
     background-image: url("images/bg_img_03.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -1001,8 +1001,8 @@ ul.counter-widget {
     margin: 0 auto;
     font-size: 22px;
     color: #fff;
-    padding: 12% 25% 0 25%;
-    min-height: 570px;
+    padding: 25% 25% 0 25%;
+    min-height: 720px;
 }
 
 .contact-form input[type=text], 
@@ -1227,7 +1227,7 @@ footer a {
 }
 
 .footer {
-    background: #5a5667;
+    background: #082600;
     color: #fff;
     padding: 60px 0;
     margin-bottom: 50px;    
@@ -1391,8 +1391,13 @@ footer a {
 
     img.menu-logo {
         width: auto;
-        height: 90px;
+        height: 70px;
         left: 5%;
+    }
+
+    img.logotext {
+        display: none;
+        
     }
 
     .mob-menu {
