@@ -216,7 +216,7 @@ h6 {
 
 .slick-next:hover, 
 .slick-prev:hover {
-    color: #d0a8b1;
+    color: #9BB047;
 }
 
 .slick-prev {
@@ -257,6 +257,7 @@ img.logotext {
     position: absolute;
     left: 100px;
     top: 25px;
+
 }
 
 .main-menu.sm-clean {
@@ -317,7 +318,7 @@ img.logotext {
 }
 
 #home .box-wrapper {
-    background-color: #dad9e1;
+    background-color: #DEE8D8;
 }
 
 
@@ -876,7 +877,6 @@ img.support-img {
     font-size: 12px;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 3px;
     padding-bottom: 20px;
 }
 
@@ -1391,8 +1391,13 @@ footer a {
 
     img.menu-logo {
         width: auto;
-        height: 90px;
+        height: 70px;
         left: 5%;
+    }
+
+    img.logotext {
+        display: none;
+        
     }
 
     .mob-menu {
