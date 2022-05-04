@@ -860,7 +860,7 @@ img.support-img {
 }
 
 .team-member .member-wrapper {
-    padding: 45px 70px 55px 70px;
+    padding: 45px 70px 25px 70px;
 }
 
 .team-member.featured {
@@ -872,19 +872,22 @@ img.support-img {
 
 .team-member.featured .member-name {
     color: #5f5a6d;
+    text-align: center;
 }
 
 .team-member .member-name {
     line-height: 25px;
     font-size: 28px;
     color: #fff;
+    text-align: center;
 }
 
 .team-member .member-position {
     font-size: 12px;
     color: #fff;
     font-weight: 600;
-    padding-bottom: 20px;
+    text-align: center;
+    /* padding-bottom: 20px; */
 }
 
 .team-member .member-text {
@@ -1008,8 +1011,8 @@ ul.counter-widget {
     margin: 0 auto;
     font-size: 22px;
     color: #fff;
-    padding: 25% 25% 0 25%;
-    min-height: 720px;
+    padding: 20% 25% 0 25%;
+    min-height: 550px;
 }
 
 .contact-form input[type=text], 
