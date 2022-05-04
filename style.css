@@ -630,22 +630,23 @@ div.pp_default .pp_close {
 }
 
 .quote {
-    background-color: #fff;
-    padding: 100px;
+    /* background-color: #082600; */
+    padding: 100px 0px 10px;
+    margin-bottom: 0px;
 }
 
 .quote h2 {
     font-size: 48px;
     line-height: 60px;
-    color: #9BB047;
+    color: #ffffff;
     margin: 0;
 }
 
 .support-service {
     color: #fff;
-    background-color: #082600;
+    /* background-color: #082600; */
     padding: 80px 70px !important;
-    margin-bottom: 180px !important;
+    /* margin-bottom: 180px !important; */
 }
 
 img.support-img {
@@ -654,6 +655,12 @@ img.support-img {
 
 .support-item-text {
     font-weight: 600;    
+}
+
+.detailtext {
+    background-color: #08260085;
+    background-blend-mode: overlay;
+    padding: 50px;
 }
 
 
