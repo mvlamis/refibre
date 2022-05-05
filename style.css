@@ -959,12 +959,17 @@ img.support-img {
     11. Contact Section
 ====================================== */
 
-.menu-wrapper.section-contact {
+/* .menu-wrapper.section-contact {
     background-color: #514d5d;
-}
+} */
 
-.menu-wrapper.section-contact .main-menu.sm-clean a {
+/* .menu-wrapper.section-contact .main-menu.sm-clean a {
     color: #d0a8b1;
+} */
+
+.contact-section {
+    background-color: #fff;
+    height: 500px;
 }
 
 ul.counter-widget {
@@ -995,8 +1000,8 @@ ul.counter-widget {
 }
 
 .contact-info {
-    color: #686475;
-    padding: 100px 130px !important;
+    color: #000;
+    padding: 75px 100px !important;
 }
 
 .contact-form-holder {    
