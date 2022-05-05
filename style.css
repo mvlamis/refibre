@@ -845,10 +845,10 @@ img.support-img {
 /* ===================================
     10. Team Section
 ====================================== */
-/* 
+
 .menu-wrapper.section-team {
-    background-color: #c1b0bc;
-} */
+    background-color: #000;
+}
 
 #team .box-wrapper {
     background-color: #9BB047;
